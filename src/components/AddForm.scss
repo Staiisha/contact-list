@@ -1,0 +1,64 @@
+.contact-form-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.contact-form {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  transform: translateZ(0);
+
+}
+
+  .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem; 
+  }
+
+  input {
+    width: 95%;
+    padding: 0.75rem 1rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: all 0.2s ease;
+    background-color: #f8fafc;
+    font-family: 'Inter', sans-serif;
+  }
+
+.form-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    width: 100%;
+}
+
+
+  .addedit-btn {
+        padding: 8px;
+          background-color: #4b4f6b;
+            color: white;
+          border-radius: 8px;
+          border: none;
+    }
+
+.deleteedit-btn {
+      background-color: #4b4f6b;
+        color: white;
+         border-radius: 8px;
+        border: none;
+}
